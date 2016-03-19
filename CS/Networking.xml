@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<!---------------------------------------------------Network Layer-------------------------------------------------------->
+<H1 name="Network Layer">
+  <Term name="Maximum Transmission Unit (MTU)">The maximum amount of data that a link-layer can carry.</Term>
+  <Term name="Fragment">When IP datagram is larger than the MTU, the datagram is split to fragments.</Term>
+  <Term name="Interface">The boundary between a system (host, router…) and the physical link.</Term>
+  <Term name="Subnet" res="https://en.wikipedia.org/wiki/Subnetwork">A logical, visible subdivision of an IP network.</Term>
+  <Term name="Subnet mask" res="https://en.wikipedia.org/wiki/Subnetwork">Determine what subnet an IP address belongs to.</Term>
+  <Term name="Classless Interdomain Routing (CIDR)" res="Computer Networking A Top-Down Approach 6th edition, P.342" res="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing"/>
+  <Term name="Network prefix" res="Computer Networking A Top-Down Approach 6th edition, P.342">Network portion of an IP address.</Term>
+  <Term name="Route aggregation">The ability to use a single prefix to advertise multiple networks.</Term>
+  <Term name="Classful addressing" res="Computer Networking A Top-Down Approach 6th edition, P.344"/>
+  <Term name="Default geteway" res="https://en.wikipedia.org/wiki/Default_gateway"/>
+  <Term name="First-hop router">The router that the host is connected to.</Term>
+  <Term name="Link-state (LS) algorithm">algorithm with global state information about a network.</Term>
+  <Term name="Network topology" res="https://en.wikipedia.org/wiki/Network_topology"/>
+  
+  <H2 name="Protocols">
+    <Subject name="Dynamic Host Configuration Protocol (DHCP)" res="Computer Networking A Top-Down Approach 6th edition, P.345"/>
+    <Subject name="Internet Control Message Protocol (ICMP)" res="Computer Networking A Top-Down Approach 6th edition, P.353"/>
+  </H2>
+  
+  <H2 name="NAT">
+    <Subject name="Network Address Translation (NAT)" res="Computer Networking A Top-Down Approach 6th edition, P.349"/>
+    <Subject name="Universal Plug and Play (UPnP)" res="Computer Networking A Top-Down Approach 6th edition, P.352"/>
+  </H2>
+  
+  <H2 name="Routing Algorithms">
+    <Subject name="Link-State (LS) Algorithm" res="Computer Networking A Top-Down Approach 6th edition, P.366"/>
+    <Subject name="Distance-Vector (DV) Algorithm" res="Computer Networking A Top-Down Approach 6th edition, P.371"/>
+  </H2>
+  
+  <H2 name="Intra-AS Routing Algorithms (known as Interior Gateway Protocols)">
+    <Subject name="Routing Information Protocol (RIP)" res="Computer Networking A Top-Down Approach 6th edition, P.384"/>
+    <Subject name="Open Shortest Path First (OSPF)" res="Computer Networking A Top-Down Approach 6th edition, P.388" res="https://en.wikipedia.org/wiki/Open_Shortest_Path_First">
+      <SubSubject name="DR vs ABR" res="http://forums.cabling-design.com/certification/area-border-router-vs-designated-router-in-ospf-protocol-8303-.htm"/>
+      <SubSubject name="Neighbor States" res="http://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13685-13.html#exchange"/>
+    </Subject>
+  </H2>
+  
+  <H2 name="Inter-AS Routing Algorithms">
+    <Subject name="Border Gateway Protocol (BGP)" res="Computer Networking A Top-Down Approach 6th edition, P.390"/>
+  </H2>
+  
+  <H2 name="Misc">
+    <Subject name="Virtual circuit and Datagram network" res="Computer Networking A Top-Down Approach 6th edition, P.313"/>
+    <Subject name="Router" res="Computer Networking A Top-Down Approach 6th edition, P.320"/>
+    <Subject name="Datagram" res="Computer Networking A Top-Down Approach 6th edition, P.332"/>
+    <Subject name="IPv4" res="Computer Networking A Top-Down Approach 6th edition, P.338"/>
+    <Subject name="IPv6" res=""/>
+    <Subject name="Obtaining Internet Presence" res="Computer Networking A Top-Down Approach 6th edition, P.392"/>
+  </H2>
+  
+  <H2 name="Broadcast and Multicast Routing">
+    <Subject name="Broadcast" res="Computer Networking A Top-Down Approach 6th edition, P.400"/>
+    <Subject name="Multicast" res="Computer Networking A Top-Down Approach 6th edition, P.406">
+      <SubSubject name="Internet Group Management Protocol (IGMP)" res="Computer Networking A Top-Down Approach 6th edition, P.407"/>
+    </Subject>
+  </H2>
+  
+  <H2 name="Programs">
+    <Subject name="Traceroute" res="https://en.wikipedia.org/wiki/Traceroute"/>
+    <Subject name="Ping" res="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29"/>
+  </H2>
+  
+</H1>
