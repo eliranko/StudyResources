@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<!---------------------------------------------------Windows---------------------------------------------------->
+<H1 name="Windows">
+  
+  <H2 name="Privilege Escalation">
+    <Subject name="Crossroad" res="Digital Whisper, sheet 1, page 5"/>
+    <Subject name="At.exe" res="Digital Whisper, sheet 1, page 12" Comment="Fixed in Vista SP2"/>
+  </H2>
+  
+</H1>
