@@ -36,6 +36,41 @@
   
 </H1>
 
+
+<!---------------------------------------------------Transport Layer-------------------------------------------------------->
+<H1 name="Transport Layer">
+  
+  <Term name="Duplex (Full, Half)" res="https://en.wikipedia.org/wiki/Duplex_%28telecommunications%29"/>
+  <Term name="Multiplexing and De-Multiplexing by Transport Layer" res="http://com2networks.blogspot.co.il/2013/10/multiplexing-and-de-multiplexing-by.html"/>
+  
+  <H2 name="Transmossion Control Protocol (TCP)">
+    
+    <Term name="TCP Half-Open" res="https://en.wikipedia.org/wiki/TCP_half-open"/>
+    
+    <Subject name="TCP Segment Structure" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure"/>
+    <Subject name="Connection States" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Protocol_operation"/>
+    <Subject name="Connection Establishment" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment"/>
+    <Subject name="Connection Termination" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_termination"/>
+    <Subject name="Data Transfer" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Data_transfer"/>
+    <Subject name=""
+    
+  </H2>
+  
+  <H2 name="User Datagram Protocol (UDP)">
+    
+    
+    
+  </H2>
+  
+  <H2 name="Socket">
+    
+    
+    
+  </H2>
+  
+</H1>
+
+
 <!---------------------------------------------------Network Layer-------------------------------------------------------->
 <H1 name="Network Layer">
   
@@ -52,6 +87,7 @@
   <Term name="First-hop router">The router that the host is connected to.</Term>
   <Term name="Link-state (LS) algorithm">algorithm with global state information about a network.</Term>
   <Term name="Network topology" res="https://en.wikipedia.org/wiki/Network_topology"/>
+  <Term name="IP Fragmentation" res="https://en.wikipedia.org/wiki/IP_fragmentation"/>
   
   <H2 name="Protocols">
     <Subject name="Dynamic Host Configuration Protocol (DHCP)" res="Computer Networking A Top-Down Approach 6th edition, P.345"/>
