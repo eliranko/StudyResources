@@ -41,7 +41,11 @@
 <H1 name="Transport Layer">
   
   <Term name="Duplex (Full, Half)" res="https://en.wikipedia.org/wiki/Duplex_%28telecommunications%29"/>
-  <Term name="Multiplexing and De-Multiplexing by Transport Layer" res="http://com2networks.blogspot.co.il/2013/10/multiplexing-and-de-multiplexing-by.html"/>
+  <Term name="Octect" res="https://en.wikipedia.org/wiki/Octet_%28computing%29"/>
+  <Term name="Hub" res="https://en.wikipedia.org/wiki/Hub_%28network_science_concept%29"/>
+  <Term name="Port" res="https://en.wikipedia.org/wiki/Port_%28computer_networking%29"/>
+  <Term name="Wildcard Address" res="http://stackoverflow.com/a/11931301"/>
+  <Term name="Session" res="https://en.wikipedia.org/wiki/Session_%28computer_science%29"/>
   
   <H2 name="Transmossion Control Protocol (TCP)">
     
@@ -52,19 +56,39 @@
     <Subject name="Connection Establishment" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment"/>
     <Subject name="Connection Termination" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_termination"/>
     <Subject name="Data Transfer" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Data_transfer"/>
-    <Subject name=""
+    <Subject name="Maximum Segment Size (MMS)" res="https://en.wikipedia.org/wiki/Maximum_segment_size"/>
+    <Subject name="Selective Acknowledgments" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Selective_acknowledgments"/>
+    <Subject name="TCP Windows and Window Scaling" res="http://packetlife.net/blog/2010/aug/4/tcp-windows-and-window-scaling/"/>
+    <Subject name="TCP_NODELAY and Small Buffer Writes" res1="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Forcing_data_delivery" res2="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.2/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-Application_Tuning_and_Deployment-TCP_NODELAY_and_Small_Buffer_Writes.html"/>
+    <Subject name="TCP Ports" res="https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_ports"/>
     
   </H2>
   
   <H2 name="User Datagram Protocol (UDP)">
     
+    <Subject name="Packet Structure" res="https://en.wikipedia.org/wiki/User_Datagram_Protocol#Packet_structure"/>
+    <Subject name="UDP Socket State and Client-Server Model" res="https://en.wikipedia.org/wiki/Network_socket#States_and_the_client-server_model"/>
     
     
   </H2>
   
   <H2 name="Socket">
     
+    <Subject name="Overview" res="https://en.wikipedia.org/wiki/Network_socket#Overview"/>
+    <Subject name="Datagram Socket" res="https://en.wikipedia.org/wiki/Datagram_socket"/>
+    <Subject name="Stream Socket" res="https://en.wikipedia.org/wiki/Stream_socket"/>
     
+    <H3 name="Berkeley Sockets">
+      
+      <Subject name="Socket API" res="https://en.wikipedia.org/wiki/Berkeley_sockets#Socket_API_functions"/>
+      
+    </H3>
+    
+  </H2>
+  
+  <H2 name="Misc">
+    
+    <Subject name="Multiplexing and De-Multiplexing by Transport Layer" res="http://com2networks.blogspot.co.il/2013/10/multiplexing-and-de-multiplexing-by.html"/>
     
   </H2>
   
@@ -132,9 +156,12 @@
     </Subject>
   </H2>
   
-  <H2 name="Programs">
-    <Subject name="Traceroute" res="https://en.wikipedia.org/wiki/Traceroute"/>
-    <Subject name="Ping" res="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29"/>
-  </H2>
+</H1>
+
+<H1 name="Programs">
+  
+  <Subject name="Traceroute" res="https://en.wikipedia.org/wiki/Traceroute"/>
+  <Subject name="Ping" res="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29"/>
+  <Subject name="Netstat" res=""/>
   
 </H1>
