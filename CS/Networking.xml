@@ -9,29 +9,30 @@
   <Term name="Throughput">Rate of production, or the rate at which something can be processed</Term>
   <Term name="Hostname">Label that is assigned to a device connected to a computer network and that is used to identify the device in various forms of electronic communication</Term>
   
-  <H2 name="Web Protocols">
+  <H2 name="Protocols">
     
-    <!--HTTP-->
-    <Subject name="HTTP" res="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"/>
-    <Subject name="Cookies" res="https://en.wikipedia.org/wiki/HTTP_cookie"/>
-    <Subject name="Web Cache" res="https://en.wikipedia.org/wiki/Web_cache"/>
+    <H3 name="HTTP">
+      <Subject name="HTTP" res="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"/>
+      <Subject name="Cookies" res="https://en.wikipedia.org/wiki/HTTP_cookie"/>
+      <Subject name="Web Cache" res="https://en.wikipedia.org/wiki/Web_cache"/>
+    </H3>
     
-  </H2>
-  
-  <H2 name="File Transfer Protocols">
-    <Subject name="File Transfer Protocol (FTP)" res="https://en.wikipedia.org/wiki/File_Transfer_Protocol"/>
-  </H2>
-  
-  <H2 name="Email Protocols">
-    <Subject name="Simple Mail Transfer Protocol (SMTP)" res="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"/>
-  </H2>
-  
-  <H2 name="Peer-to-Peer Protocols">
-    <Subject name="BitTorrent" res="https://en.wikipedia.org/wiki/BitTorrent"/>
-  </H2>
-  
-  <H2 name="Misc Protocols">
-    <Subject name="Domain Name System (DNS)" res="https://en.wikipedia.org/wiki/Domain_Name_System"/>
+    <H2 name="File Transfer Protocols">
+      <Subject name="File Transfer Protocol (FTP)" res="https://en.wikipedia.org/wiki/File_Transfer_Protocol"/>
+    </H2>
+    
+    <H2 name="Email Protocols">
+      <Subject name="Simple Mail Transfer Protocol (SMTP)" res="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"/>
+    </H2>
+    
+    <H2 name="Peer-to-Peer Protocols">
+      <Subject name="BitTorrent" res="https://en.wikipedia.org/wiki/BitTorrent"/>
+    </H2>
+    
+    <H2 name="Misc Protocols">
+      <Subject name="Domain Name System (DNS)" res="https://en.wikipedia.org/wiki/Domain_Name_System"/>
+    </H2>
+    
   </H2>
   
 </H1>
@@ -163,5 +164,6 @@
   <Subject name="Traceroute" res="https://en.wikipedia.org/wiki/Traceroute"/>
   <Subject name="Ping" res="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29"/>
   <Subject name="Netstat" res=""/>
+  <Subject name="curl" res="https://en.wikipedia.org/wiki/CURL"/>
   
 </H1>
