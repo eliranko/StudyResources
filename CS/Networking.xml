@@ -95,7 +95,59 @@
   
 </H1>
 
+<!---------------------------------------------------Network Layer-------------------------------------------------------->
+<H1 name="Network Layer">
+  
+  <Term name="Forwarding">The router local acion of transfering a packet from an input link interface to the appropriate output link interface</Term>
+  <Term name="Routing">The network wide process that determines the end-to-end path sthat packets take from source to destination</Term>
+  <Term name="Medium">The physical channel used for transmission in the network. Wire, fiber and air are the three media</Term>
+  <Term name="Header" res="https://en.wikipedia.org/wiki/Header_%28computing%29"/>
+  <Term name="Payload" res="https://en.wikipedia.org/wiki/Payload_%28computing%29"/>
+  
+  <H2 name="Packet Switching" res="https://en.wikipedia.org/wiki/Packet_switching">
+    
+    <Subject name="Virtual Circuit (VC)" res="https://en.wikipedia.org/wiki/Virtual_circuit"/>
+    <Subject name="Datagram" res="https://en.wikipedia.org/wiki/Datagram"/>
+    
+  </H2>
+  
+  <H2 name="IP" res="https://en.wikipedia.org/wiki/Internet_Protocol">
+    
+    <H3 name="IPv4">
+      
+      <H4 name="Address">
+	
+	<Subject name="Address Representations" res="https://en.wikipedia.org/wiki/IPv4#Address_representations"/>
+	<H3 name="Allocation">
+	  
+	  <Subject name="Overview" res="https://en.wikipedia.org/wiki/IPv4#Allocation"/>
+	  <Subject name="Classfull Network" res="https://en.wikipedia.org/wiki/Classful_network"/>
+	  <Subject name="Classless Inter-Domain Routing" res="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing"/>
+	  
+	</H3>
+	<H3 name="Special-use addresses">
+	  
+	  <Subject name="Private Networks" res="https://en.wikipedia.org/wiki/IPv4#Private_networks"/>
+	  <Subject name="Link-Local Address" res="http://serverfault.com/a/118329"/>
+	  <Subject name="Loopback" res="https://en.wikipedia.org/wiki/Loopback"/>
+	  <Subject name="Addresses ending in 0 or 255" res="https://en.wikipedia.org/wiki/IPv4#Addresses_ending_in_0_or_255"/>
+	  <Subject name="Unicast" res="https://en.wikipedia.org/wiki/Unicast"/>
+	  <Subject name="IP Multicast" res=""/>
+	  <Subject name="Broadcast" res=""/>
+	
+	</H3>
+	<Subject name="Packet structure" res="https://en.wikipedia.org/wiki/IPv4#Packet_structure"/>
+      </H4>
+      
+    </H3>
+    
+    <Subject name="Virtual Private Network (VPN) res=""/>
+    <Subject name="IP Tunnel" res=""/>
+  </H2>
+  
+</H1>
 
+<!--TEMP TIL DELETION-->
 <!---------------------------------------------------Network Layer-------------------------------------------------------->
 <H1 name="Network Layer">
   
