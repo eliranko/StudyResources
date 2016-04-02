@@ -103,6 +103,16 @@
   <Term name="Medium">The physical channel used for transmission in the network. Wire, fiber and air are the three media</Term>
   <Term name="Header" res="https://en.wikipedia.org/wiki/Header_%28computing%29"/>
   <Term name="Payload" res="https://en.wikipedia.org/wiki/Payload_%28computing%29"/>
+  <Term name="Maximum Transmission Unit (MTU)" res="https://en.wikipedia.org/wiki/Maximum_transmission_unit"/>
+  <Term name="Subnet" res="https://en.wikipedia.org/wiki/Subnetwork">A logical, visible subdivision of an IP network.</Term>
+  <Term name="Subnet mask" res="https://en.wikipedia.org/wiki/Subnetwork">Determine what subnet an IP address belongs to.</Term>
+  <Term name="Default geteway" res="https://en.wikipedia.org/wiki/Default_gateway"/>
+  <Term name="First-hop router">The router that the host is connected to.</Term>
+  <Term name="Network topology" res="https://en.wikipedia.org/wiki/Network_topology"/>
+  <Term name="Interface">The boundary between a system (host, router…) and the physical link.</Term>
+  <Term name="Subnet">A logical, visible subdivision of an IP network.</Term>
+  <Term name="Subnet Mask">A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address.</Term>
+  <Term name="Network Prefix">The number of bits of the IP address that indicates the network portion (example: a.b.c.d\24)</Term>
   
   <H2 name="Packet Switching" res="https://en.wikipedia.org/wiki/Packet_switching">
     
@@ -118,14 +128,16 @@
       <H4 name="Address">
 	
 	<Subject name="Address Representations" res="https://en.wikipedia.org/wiki/IPv4#Address_representations"/>
-	<H3 name="Allocation">
+	
+	<H5 name="Allocation">
 	  
 	  <Subject name="Overview" res="https://en.wikipedia.org/wiki/IPv4#Allocation"/>
 	  <Subject name="Classfull Network" res="https://en.wikipedia.org/wiki/Classful_network"/>
 	  <Subject name="Classless Inter-Domain Routing" res="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing"/>
 	  
-	</H3>
-	<H3 name="Special-use addresses">
+	</H5>
+	
+	<H5 name="Special-use addresses">
 	  
 	  <Subject name="Private Networks" res="https://en.wikipedia.org/wiki/IPv4#Private_networks"/>
 	  <Subject name="Link-Local Address" res="http://serverfault.com/a/118329"/>
@@ -135,14 +147,25 @@
 	  <Subject name="IP Multicast" res=""/>
 	  <Subject name="Broadcast" res=""/>
 	
-	</H3>
-	<Subject name="Packet structure" res="https://en.wikipedia.org/wiki/IPv4#Packet_structure"/>
+	</H5>
+	
       </H4>
+      
+      <Subject name="Packet structure" res="https://en.wikipedia.org/wiki/IPv4#Packet_structure"/>
+      <Subject name="Fragmentation and reassembly" res="https://en.wikipedia.org/wiki/IPv4#Fragmentation_and_reassembly"/>
+      
+    </H3>
+    
+    <H3 name="Network Address Translation (NAT)">
+      
+      
       
     </H3>
     
     <Subject name="Virtual Private Network (VPN) res=""/>
+    <Subject name="Smart DNS" res=""/>
     <Subject name="IP Tunnel" res=""/>
+    
   </H2>
   
 </H1>
@@ -150,21 +173,9 @@
 <!--TEMP TIL DELETION-->
 <!---------------------------------------------------Network Layer-------------------------------------------------------->
 <H1 name="Network Layer">
-  
-  <Term name="Maximum Transmission Unit (MTU)">The maximum amount of data that a link-layer can carry.</Term>
-  <Term name="Fragment">When IP datagram is larger than the MTU, the datagram is split to fragments.</Term>
-  <Term name="Interface">The boundary between a system (host, router…) and the physical link.</Term>
-  <Term name="Subnet" res="https://en.wikipedia.org/wiki/Subnetwork">A logical, visible subdivision of an IP network.</Term>
-  <Term name="Subnet mask" res="https://en.wikipedia.org/wiki/Subnetwork">Determine what subnet an IP address belongs to.</Term>
-  <Term name="Classless Interdomain Routing (CIDR)" res="Computer Networking A Top-Down Approach 6th edition, P.342" res="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing"/>
-  <Term name="Network prefix" res="Computer Networking A Top-Down Approach 6th edition, P.342">Network portion of an IP address.</Term>
+
   <Term name="Route aggregation">The ability to use a single prefix to advertise multiple networks.</Term>
-  <Term name="Classful addressing" res="Computer Networking A Top-Down Approach 6th edition, P.344"/>
-  <Term name="Default geteway" res="https://en.wikipedia.org/wiki/Default_gateway"/>
-  <Term name="First-hop router">The router that the host is connected to.</Term>
   <Term name="Link-state (LS) algorithm">algorithm with global state information about a network.</Term>
-  <Term name="Network topology" res="https://en.wikipedia.org/wiki/Network_topology"/>
-  <Term name="IP Fragmentation" res="https://en.wikipedia.org/wiki/IP_fragmentation"/>
   
   <H2 name="Protocols">
     <Subject name="Dynamic Host Configuration Protocol (DHCP)" res="Computer Networking A Top-Down Approach 6th edition, P.345"/>
@@ -195,18 +206,11 @@
   
   <H2 name="Misc">
     <Subject name="Virtual circuit and Datagram network" res="Computer Networking A Top-Down Approach 6th edition, P.313"/>
-    <Subject name="Router" res="Computer Networking A Top-Down Approach 6th edition, P.320"/>
-    <Subject name="Datagram" res="Computer Networking A Top-Down Approach 6th edition, P.332"/>
-    <Subject name="IPv4" res="Computer Networking A Top-Down Approach 6th edition, P.338"/>
-    <Subject name="IPv6" res=""/>
     <Subject name="Obtaining Internet Presence" res="Computer Networking A Top-Down Approach 6th edition, P.392"/>
   </H2>
   
   <H2 name="Broadcast and Multicast Routing">
-    <Subject name="Broadcast" res="Computer Networking A Top-Down Approach 6th edition, P.400"/>
-    <Subject name="Multicast" res="Computer Networking A Top-Down Approach 6th edition, P.406">
       <SubSubject name="Internet Group Management Protocol (IGMP)" res="Computer Networking A Top-Down Approach 6th edition, P.407"/>
-    </Subject>
   </H2>
   
 </H1>
