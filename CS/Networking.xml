@@ -106,7 +106,6 @@
   <Term name="Maximum Transmission Unit (MTU)" res="https://en.wikipedia.org/wiki/Maximum_transmission_unit"/>
   <Term name="Subnet" res="https://en.wikipedia.org/wiki/Subnetwork">A logical, visible subdivision of an IP network.</Term>
   <Term name="Subnet mask" res="https://en.wikipedia.org/wiki/Subnetwork">Determine what subnet an IP address belongs to.</Term>
-  <Term name="Default geteway" res="https://en.wikipedia.org/wiki/Default_gateway"/>
   <Term name="First-hop router">The router that the host is connected to.</Term>
   <Term name="Network topology" res="https://en.wikipedia.org/wiki/Network_topology"/>
   <Term name="Interface">The boundary between a system (host, router…) and the physical link.</Term>
@@ -144,8 +143,8 @@
 	  <Subject name="Loopback" res="https://en.wikipedia.org/wiki/Loopback"/>
 	  <Subject name="Addresses ending in 0 or 255" res="https://en.wikipedia.org/wiki/IPv4#Addresses_ending_in_0_or_255"/>
 	  <Subject name="Unicast" res="https://en.wikipedia.org/wiki/Unicast"/>
-	  <Subject name="IP Multicast" res=""/>
-	  <Subject name="Broadcast" res=""/>
+	  <Subject name="IP Multicast" res="https://en.wikipedia.org/wiki/IP_multicast"/>
+	  <Subject name="Broadcast" res="https://en.wikipedia.org/wiki/Broadcast_address"/>
 	
 	</H5>
 	
@@ -165,6 +164,28 @@
     <Subject name="Virtual Private Network (VPN) res=""/>
     <Subject name="Smart DNS" res=""/>
     <Subject name="IP Tunnel" res=""/>
+    
+  </H2>
+  
+  <H2 name="Routing">
+    
+    <Subject name="Gateway" res="https://en.wikipedia.org/wiki/Gateway_%28telecommunications%29"/>
+    <Subject name="Default geteway" res="https://en.wikipedia.org/wiki/Default_gateway"/>
+    <Subject name="Hop" res="https://en.wikipedia.org/wiki/Hop_%28networking%29"/>
+    <Subject name="Routing Table" res=""/>
+    <Subject name="Autonomous System (AS)" res="https://www.cs.rutgers.edu/~pxk/352/notes/autonomous_systems.html"/>
+    
+    <H3 name="Intra-AS Routing Algorithms (known as Interior Gateway Protocols (IGP))">
+      
+      
+      
+    </H3>
+    
+    <H3 name="Inter-AS Routing Algorithms (knwon as Exterior Gateway Protocol (EGP))">
+      
+      
+      
+    </H3>
     
   </H2>
   
