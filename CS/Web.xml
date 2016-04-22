@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<H1 name="HTTP">
+
+	<Subject name="Header Fields" res="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields"/>
+
+</H1>
+
+<H1 name="Generic">
+
+	<Term name="Model">A model is an object that represents the data in your application</Term>
+	
+	<Subject name="MIME type" res="http://www.freeformatter.com/mime-types-list.html"/>
+	
+</H1>
+
+<H1 name="DotNet">
+
+	<H2 name="ASP.NET Web Api 2">
+	
+		<Term name="Controller">A controller is an object that handles HTTP requests</Term>
+			<Term name="Action">Public method of the controller. Every HTTP request is routed to an action</Term>
+		
+		<Subject name="Action Results" res="http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/action-results"/>
+		<H3 name="Routing">
+		
+			<Subject name="Intro" res="http://www.asp.net/web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api"/>
+			<Subject name="Action Selection" res="http://www.asp.net/web-api/overview/web-api-routing-and-actions/routing-and-action-selection"/>
+			<Subject name="Attribute Routing" res="http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2"/>
+			
+		</H3>
+		<H3 name="Serialization">
+		
+			<Subject name="Media Formatters" res="http://www.asp.net/web-api/overview/formats-and-model-binding/media-formatters"/>
+			<Subject name="JSON and XML Serialization" res="http://www.asp.net/web-api/overview/formats-and-model-binding/json-and-xml-serialization"/>
+			<Subject name="Content Negotiation" res="http://www.asp.net/web-api/overview/formats-and-model-binding/content-negotiation"/>
+			<Subject name="Model Validation" res="http://www.asp.net/web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api"/>
+			<Subject name="Parameter Binding" res="http://www.asp.net/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api"/>
+			
+		</H3>
+		<H3 name="Error Handling">
+		
+			<Subject name="Exception Handling" res="http://www.asp.net/web-api/overview/error-handling/exception-handling"/>
+			
+		
+		</H3>
+	</H2>
+
+</H1>
